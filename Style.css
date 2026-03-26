@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0d0d0d;
+  color: white;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: black;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  background: #111;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid #333;
+}
+
+.products {
+  display: flex;
+  padding: 20px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 10px;
+}
